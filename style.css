@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  line-height: 1.5;
+  font-family: 'Helvetica Neue', 'Segoe UI', 'Hiragino Kaku Gothic ProN',
+    'Hiragino Sans', Meiryo, sans-serif;
+  color: rgb(41, 41, 41);
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+body {
+  padding: 50px 5vw;
+  background: rgb(235, 246, 248);
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+main {
+  margin-top: 50px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.description-block {
+  padding: 28px 24px;
+  background: white;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0 3px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.description-block > .section:first-child {
+  margin-bottom: 30px;
+}
+
+.description-block > .section > h3 {
+  font-size: 1rem;
+}
+
+.description-block > .section > ol {
+  margin-top: 8px;
+  padding-left: 20px;
+  font-size: 0.9rem;
+}
+
+.description-block > .section > hr {
+  margin-top: 8px;
+  border: none;
+  border-top: 1px solid rgb(211, 208, 208);
+}
+
+.description-block > .section > p {
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.wrapper {
+  margin-top: 40px;
+  padding: 20px 10% 50px;
+  max-height: 54vh;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 4px -2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper > textarea {
+  margin-top: 12px;
+  padding: 5px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper > label {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.button {
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 6px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+#conversion {
+  margin-top: 50px;
+  padding: 14px 0;
+  background: rgb(24, 163, 168);
+  color: white;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.output-wrapper {
+  margin-top: 50px;
+  padding-bottom: 30px;
+  max-height: 60vh;
+}
+
+.copy-button {
+  margin: 20px auto 0;
+  padding: 10px 0;
+  background: white;
+  border: 1px solid rgb(200, 200, 200);
+}

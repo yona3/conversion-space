@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>全角スペース→半角スペース変換装置</title>
+  </head>
+  <body>
+    <header>
+      <h1>全角スペース→半角スペース<br />変換装置</h1>
+    </header>
+    <main>
+      <div class="container">
+        <section class="description-block">
+          <div class="section">
+            <h3>これはなに？</h3>
+            <hr />
+            <p>
+              入力されたテキスト内の全角スペースを半角スペースに変換する装置です。プログラミングの講義用に作ってみました。
+            </p>
+          </div>
+          <div class="section">
+            <h3>使い方</h3>
+            <hr />
+            <ol>
+              <li>入力部分に変換したいテキストを入力</li>
+              <li>変換するボタンをクリック</li>
+            </ol>
+          </div>
+        </section>
+
+        <section class="app">
+          <div class="input-wrapper wrapper">
+            <label for="input">入力</label>
+            <textarea name="input" id="input" rows="15"></textarea>
+          </div>
+
+          <button class="button" id="conversion">変換する</button>
+
+          <div class="output-wrapper wrapper">
+            <label for="output">出力</label>
+            <textarea name="output" id="output" rows="15"></textarea>
+            <button class="button copy-button" id="copy">
+              出力結果をコピー
+            </button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
